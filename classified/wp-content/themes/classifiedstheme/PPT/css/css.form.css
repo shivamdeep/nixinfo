@@ -1,0 +1,11 @@
+/* FORM ELEMENTS */
+input, select, textarea { padding: 5px; border: 1px solid #666; }
+fieldset { border: 0; }
+label { font-weight: 900; }
+.short { width: 77%; }
+.long { width: 90%; }
+.checkbox, .radio { vertical-align: middle; padding: 0; margin-right: 10px; }
+.required { color: red; }
+legend { font-style: italic; padding-bottom: 10px; }
+form p { padding: 15px 0; }
+input.submit { background-color: #666; color: #fff; font-weight: 900; cursor: pointer; padding: 8px 14px; font-size: 14px; }

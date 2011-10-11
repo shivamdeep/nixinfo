@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Confirm Details</title>
+<link rel="stylesheet" href="myadmanager.css" type="text/css" media="screen" />
+<style type="text/css">
+div#confirmBox {
+border:2px solid #dbdbdb; width:700px; margin:0 auto; padding:10px; font-family:Tahoma; font-size:14px;
+}
+
+#confirmBox h2 {border-bottom:1px solid #dbdbdb; }
+
+img { padding:5px; border:2px solid #dbdbdb; }
+</style>
+<!--
+/*************************
+Template Tags for confirm-order.template.html
+
+To simplify the process of displaying the Buy AD-Space form and Modifying it, serveral template tags have been defined.
+
+{blog_name} - Displays you Blog Name
+
+The following tags display results derived from the Buy AD Form. The data entered by the buyer is shown in this page to confirm his order before
+processing it to paypal.
+
+{ad_name} - Displays the AD-Name
+{ad_image_url} - Displays the AD Image URL
+{ad_image_url} - Displays the Image ALT Text
+{ad_url} - Displays the URL the image points to when clicked.
+{package} - Shows which package the user has selected (30day or 7day if enabled)
+{cost} - Shows the amount to be paid.
+{preview_ad_image} - Displays how the AD will look finally
+*************************/
+-->
+</head>
+<body>
+<div id="confirmBox">
+<h2>Confirm Details - {blog_name}</h2>
+<p><strong>AD-Name :</strong> {ad_name}</p>
+<p><strong>URL of AD-Image :</strong>  {ad_image_url}</p>
+<p><strong>Image Alt Text :</strong>  {ad_image_alt}</p>
+<p><strong>Target URL :</strong> {ad_url}</p>
+<p><strong>Package :</strong>  {package}</p>
+<p><strong>Cost :</strong>  <strong>{total_amount}</strong></p>
+<p><h2>PREVIEW</h2></p>
+<p align="center" id="preview_of_ad">{preview_ad_image}</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+.dropui
+{
+	display: -moz-inline-stack;
+    display: inline-block;
+    zoom: .99;
+    *display: inline;
+	position: relative;
+	z-index: 1;
+}
+
+	.dropui:hover { z-index: 10000 !important; }
+	*:first-child+html .dropui:hover { zoom: 1 !important;  }
+
+	.dropui .dropui-tab
+	{
+		background: url(../img/button-gradient.png) repeat-x right -400px;	
+		font-weight: bold;
+		color: #222;	
+		text-decoration: none;
+		line-height: 0;	
+		display: block;
+		padding: 15px 35px 15px 10px;	
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;	
+		cursor: pointer;	
+		position: relative;	
+		z-index: 2;	
+		
+	}
+	/*
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	    .dropui .dropui-tab { padding-bottom: 10px !important; }
+	}*/
+	
+		.dropui:hover .dropui-tab
+		{
+			background-position: right -100px; 
+			background-color: #AAA;
+			-webkit-border-bottom-right-radius: 0;
+			-webkit-border-bottom-left-radius: 0;
+			-moz-border-radius-bottomright: 0;
+			-moz-border-radius-bottomleft: 0;
+			border-bottom-right-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+	
+	.dropui .dropui-content 
+	{ 
+		background: #FFF;
+		width: 175px;
+		display: none; 
+		-webkit-border-radius: 4px;
+		-webkit-border-top-left-radius: 0;
+		-moz-border-radius: 4px;
+		-moz-border-radius-topleft: 0;
+		border-radius: 4px;
+		border-top-left-radius: 0;	
+		padding: 15px 10px 15px;
+		position: absolute;
+		top: 100%;	
+		left: 0;
+		border: 3px solid #aaa;
+		-moz-box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+		text-align: left;
+		color: #222;
+		font-size: 11px;
+		z-index: 1;
+	}
+
+		.dropui:hover .dropui-content { display: block; border-color: #aaa; }
+		
+
+/* Utility Classes */
+
+.dropui-small .dropui-content { width: 175px; }
+.dropui-medium .dropui-content { width: 350px; }
+.dropui-large .dropui-content { width: 525px; }
+
+.dropui-left .dropui-content { left: 0; }
+.dropui-right .dropui-content { left: auto; right: 0; }
+
+	.dropui-right .dropui-content 
+	{ 
+		-webkit-border-radius: 4px;
+		-webkit-border-top-right-radius: 0;
+		-moz-border-radius: 4px;
+		-moz-border-radius-topright: 0;
+		border-radius: 4px;
+		border-top-right-radius: 0;	
+	}
+
+
+.dropui .dropui-tab { background-color: #1B80DC; color: #FFF; background-position: right top;  border: 1px solid #1461A7;}
+.dropui:hover .dropui-tab { background-color: #1461A7; }
+.dropui:hover .dropui-content { border-color: #1461A7; }
+.dropui.dropui-menu .dropui-content { background-color: #1461A7; }
+
+.dropui-blue .dropui-tab { background-color: #1B80DC; color: #FFF; background-position: right top;  border: 1px solid #1461A7;}
+.dropui-blue:hover .dropui-tab { background-color: #1461A7; }
+.dropui-blue:hover .dropui-content { border-color: #1461A7; }
+.dropui-blue.dropui-menu .dropui-content { background-color: #1461A7; }
+
+
+.dropui-orange .dropui-tab { background-color: #F90; color: #FFF; background-position: right top; border: 1px solid #D58000; }
+.dropui-orange:hover .dropui-tab { background-color: #D58000; background-position: right -100px; }
+.dropui-orange:hover .dropui-content { border-color: #D58000; }
+.dropui-orange.dropui-menu .dropui-content { background-color: #D58000; }
+
+.dropui-green .dropui-tab { background-color: #77B32F; color: #FFF; background-position: right top; border: 1px solid #689C29; }
+.dropui-green:hover .dropui-tab { background-color: #689C29; background-position: right -100px; }
+.dropui-green:hover .dropui-content { border-color: #689C29; }
+.dropui-green.dropui-menu .dropui-content { background-color: #689C29; }
+
+.dropui-red .dropui-tab { background-color: #C00; color: #FFF; background-position: right top; border: 1px solid #B00000; }
+.dropui-red:hover .dropui-tab { background-color: #B00000; background-position: right -100px; }
+.dropui-red:hover .dropui-content { border-color: #B00000; }
+.dropui-red.dropui-menu .dropui-content { background-color: #B00000; }
+
+.dropui-purple .dropui-tab { background-color: #6E0D6A; color: #FFF; background-position: right top; border: 1px solid #590B55; }
+.dropui-purple:hover .dropui-tab { background-color: #590B55; background-position: right -100px; }
+.dropui-purple:hover .dropui-content { border-color: #590B55; }
+.dropui-purple.dropui-menu .dropui-content { background-color: #590B55; }
+
+.dropui-teal .dropui-tab { background-color: #39A7B6; color: #FFF; background-position: right top; border: 1px solid #2E8794; }
+.dropui-teal:hover .dropui-tab { background-color: #2E8794; background-position: right -100px; }
+.dropui-teal:hover .dropui-content { border-color: #2E8794; }
+.dropui-teal.dropui-menu .dropui-content { background-color: #2E8794; }
+
+.dropui-pink .dropui-tab { background-color: #FF0066; color: #FFF; background-position: right top; border: 1px solid #DA0C59; }
+.dropui-pink:hover .dropui-tab { background-color: #DA0C59; background-position: right -100px; }
+.dropui-pink:hover .dropui-content { border-color: #DA0C59; }
+.dropui-pink.dropui-menu .dropui-content { background-color: #DA0C59; }
+
+.dropui-grey .dropui-tab { background-color: #999; border: 1px solid #888; background-position: right top; color: #FFF; }
+.dropui-grey:hover .dropui-tab { background-color: #888; }
+.dropui-grey:hover .dropui-content { border-color: #888; }
+.dropui-grey.dropui-menu .dropui-content { background-color: #888; }
+
+
+/* Icon Only Styles */
+
+.dropui-icon .dropui-tab { background-position: right top; padding-left: 13px; padding-right: 16px; width: 1px; text-indent: -9999px; }
+*:first-child+html .dropui-icon .dropui-tab { float: left;  }
+@media screen and (-webkit-min-device-pixel-ratio:0) { .dropui-icon .dropui-tab { padding-top: 18px; padding-left: 15px; } }
+	
+
+/* Drop Menu Styling */
+
+.dropui-menu .dropui-content { background: #aaa; padding: 10px 5px 5px; }
+
+.dropui-menu ul { list-style-type: none; }
+	
+	.dropui-menu li { margin-bottom: .5em; }
+	
+		.dropui-menu li a
+		{			 
+			background: #F1F1F1 url(../img/link-menu-arrow.png) no-repeat 4px 50%;  
+			display: block;
+			padding: 5px 10px 5px 28px;
+			color: #358;
+			text-decoration: none;
+			font-weight: bold;
+			-moz-border-radius: 4px; 
+			-webkit-border-radius: 4px; 
+			border-radius: 4px;
+		}
+		
+			.dropui-menu li a:hover { background-color: #DDD; }
+ 
+

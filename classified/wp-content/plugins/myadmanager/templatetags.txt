@@ -1,0 +1,40 @@
+<!--
+/*************************
+Template Tags for confirm-order.template.html
+
+To simplify the process of displaying the Buy AD-Space form and Modifying it, serveral template tags have been defined.
+
+{blog_name} - Displays you Blog Name
+
+The following tags display results derived from the Buy AD Form. The data entered by the buyer is shown in this page to confirm his order before
+processing it to paypal.
+
+{ad_name} - Displays the AD-Name
+{ad_image_url} - Displays the AD Image URL
+{ad_image_url} - Displays the Image ALT Text
+{ad_url} - Displays the URL the image points to when clicked.
+{package} - Shows which package the user has selected (30day or 7day if enabled)
+{cost} - Shows the amount to be paid.
+{preview_ad_image} - Displays how the AD will look finally
+*************************/
+-->
+
+
+<!--
+/*************************
+Template Tags for form.template.html
+
+To simplify the process of displaying the Buy AD-Space form and Modifying it, serveral template tags have been defined.
+The form is necessary, and all the tags must be inside the form to work. 
+
+{process_url} = This URL is called when the form is submitted - Very Important
+
+Use the following tags to design the layout of your form. No need for you to create any input tags.
+{ad_name} = Displays an input box which takes in the Ad Name from the user
+{ad_image_url} = Displays an input box which takes in the AD-Image URL from the user.
+{ad_image_alt} = Displays an input box which takes in the AD-Image Alt text from the user.
+{ad_url} = Displays an input box which takes in the URL to which the AD must point, from the user.
+{product_options} = Displays a select box with option to buy AD-Space for either a month or for both a week and a month.(As enabled by you in the admin panel
+
+*************************/
+-->

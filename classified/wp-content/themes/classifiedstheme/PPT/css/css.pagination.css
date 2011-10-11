@@ -1,0 +1,39 @@
+
+	ul.pagination
+	{
+		margin:0px;
+		padding:0px;
+		 
+		overflow:hidden;
+		font:12px 'Tahoma';
+		list-style-type:none;
+		margin-left:20px;
+		margin-right:15px;	
+	}
+	
+	ul.pagination li
+	{
+		float:left;
+		margin:0px;
+		padding:0px;
+		margin-left:5px;
+	}
+	
+	ul.pagination li:first-child
+	{
+		margin-left:0px;
+	}
+
+	ul.pagination li a
+	{
+		color:black;
+		display:block;
+		text-decoration:none;
+		padding:7px 10px 7px 10px;
+	}
+	
+	ul.pagination li a img
+	{
+		border:none;
+	}
+	

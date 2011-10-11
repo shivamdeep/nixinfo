@@ -1,0 +1,180 @@
+	
+	/*****************************************************************/
+	/* D																				  */
+	/*****************************************************************/
+
+	ul.paginationD 
+	{
+		padding:8px;
+		background:#F9F9F9;
+		border:solid 1px #E2E2E2;
+	}
+	
+	ul.paginationD li a
+	{
+		color:#333333;
+		text-shadow:0px 1px #F6F6F6;
+		padding:6px 9px 6px 9px;
+		border:solid 1px #B6B6B6;
+		box-shadow:0px 1px #EFEFEF;
+		-moz-box-shadow:0px 1px #EFEFEF;
+		-webkit-box-shadow:0px 1px #EFEFEF;
+		background:#E6E6E6;
+		background:-moz-linear-gradient(top,#FFFFFF 1px,#F3F3F3 1px,#E6E6E6);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#FFFFFF),color-stop(0.02,#F3F3F3),color-stop(1,#E6E6E6));
+	}
+	
+	ul.paginationD li
+	{
+		padding-bottom:1px;
+	}
+	
+	ul.paginationD li a:hover,
+	ul.paginationD li a.current
+	{	
+		color:#FFFFFF;
+		box-shadow:0px 1px #E7E7E7;
+		-moz-box-shadow:0px 1px #E7E7E7;
+		-webkit-box-shadow:0px 1px #E7E7E7;
+	}
+	
+	/*****************************************************************/
+	/* 01																				  */
+	/*****************************************************************/
+		
+	ul.paginationD01 li a:hover,
+	ul.paginationD01 li a.current
+	{
+		color:#893A00;
+		text-shadow:0px 1px #FFEF42;
+		border-color:#FFA200;
+		background:#FFC800;
+		background:-moz-linear-gradient(top,#FFFFFF 1px,#FFEA01 1px,#FFC800);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#FFFFFF),color-stop(0.02,#FFEA01),color-stop(1,#FFC800));
+	}
+	
+	/*****************************************************************/
+	/* 02																				  */
+	/*****************************************************************/
+	
+	ul.paginationD02 li a:hover,
+	ul.paginationD02 li a.current
+	{
+		text-shadow:0px 1px #388DBE;
+		border-color:#3390CA;
+		background:#58B0E7;
+		background:-moz-linear-gradient(top,#B4F6FF 1px,#63D0FE 1px,#58B0E7);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#B4F6FF),color-stop(0.02,#63D0FE),color-stop(1,#58B0E7));
+	}
+	
+	/*****************************************************************/
+	/* 03																				  */
+	/*****************************************************************/
+	
+	ul.paginationD03 li a:hover,
+	ul.paginationD03 li a.current
+	{
+		text-shadow:0px 1px #4876C9;
+		border-color:#3D6DC3;
+		background:#5A8CE7;
+		background:-moz-linear-gradient(top,#C2E0FF 1px,#84AFFE 1px,#5A8CE7);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#C2E0FF),color-stop(0.02,#84AFFE),color-stop(1,#5A8CE7));
+	}
+	
+	/*****************************************************************/
+	/* 04																				  */
+	/*****************************************************************/
+
+	ul.paginationD04 li a:hover,
+	ul.paginationD04 li a.current
+	{
+		text-shadow:0px 1px #7955AB;
+		border-color:#6F4DA0;
+		background:#9168C9;
+		background:-moz-linear-gradient(top,#DFBEFA 1px,#B088E7 1px,#9168C9);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#DFBEFA),color-stop(0.02,#B088E7),color-stop(1,#9168C9));
+	}
+	
+	/*****************************************************************/
+	/* 05																				  */
+	/*****************************************************************/
+	
+	ul.paginationD05 li a:hover,
+	ul.paginationD05 li a.current
+	{
+		text-shadow:0px 1px #CA470E;
+		border-color:#D13F11;
+		background:#E95B2B;
+		background:-moz-linear-gradient(top,#FFBE01 1px,#FE7C02 1px,#E95B2B);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#FFBE01),color-stop(0.02,#FE7C02),color-stop(1,#E95B2B));
+	}
+	
+	/*****************************************************************/
+	/* 06																				  */
+	/*****************************************************************/
+	
+	ul.paginationD06 li a:hover,
+	ul.paginationD06 li a.current
+	{
+		text-shadow:0px 1px #B72E2E;
+		border-color:#AD2D2D;
+		background:#E43838;
+		background:-moz-linear-gradient(top,#FF9B9B 1px,#FE5555 1px,#E43838);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#FF9B9B),color-stop(0.02,#FE5555),color-stop(1,#E43838));
+	}
+	
+	/*****************************************************************/
+	/* 07																				  */
+	/*****************************************************************/
+	
+	ul.paginationD07 li a:hover,
+	ul.paginationD07 li a.current
+	{
+		text-shadow:0px 1px #866454;
+		border-color:#886756;
+		background:#A37A66;
+		background:-moz-linear-gradient(top,#E9C4B2 1px,#C59882 1px,#A37A66);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#E9C4B2),color-stop(0.02,#C59882),color-stop(1,#A37A66));
+	}
+	
+	/*****************************************************************/
+	/* 08																				  */
+	/*****************************************************************/
+
+	ul.paginationD08 li a:hover,
+	ul.paginationD08 li a.current
+	{
+		text-shadow:0px 1px #4E802C;
+		border-color:#478223;
+		background:#599F2F;
+		background:-moz-linear-gradient(top,#9FE355 1px,#79BF4A 1px,#599F2F);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#9FE355),color-stop(0.02,#79BF4A),color-stop(1,#599F2F));
+	}
+	
+	/*****************************************************************/
+	/* 09																				  */
+	/*****************************************************************/
+	
+	ul.paginationD09 li a:hover,
+	ul.paginationD09 li a.current
+	{
+		text-shadow:0px 1px #636363;
+		border-color:#5D5D5D;
+		background:#777777;
+		background:-moz-linear-gradient(top,#C0C0C0 1px,#929292 1px,#777777);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#C0C0C0),color-stop(0.02,#929292),color-stop(1,#777777));
+	}
+	
+	/*****************************************************************/
+	/* 10																				  */
+	/*****************************************************************/
+	
+	ul.paginationD10 li a:hover,
+	ul.paginationD10 li a.current
+	{
+		text-shadow:0px 1px #3C3C3C;
+		border-color:#202020;
+		background:#525252;
+		background:-moz-linear-gradient(top,#9F9F9F 1px,#6C6C6C 1px,#525252);
+		background:-webkit-gradient(linear,0 0,0 100%,color-stop(0.02,#9F9F9F),color-stop(0.02,#6C6C6C),color-stop(1,#525252));
+	}

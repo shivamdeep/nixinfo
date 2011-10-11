@@ -1,0 +1,52 @@
+<script type="text/javascript">
+function validateMyForm(form) {
+	var obj = document.buyform;		            
+	if(obj.ad_name.value == "" ) {
+		alert('Please enter the AD-Name');
+		return false;
+	}     
+	return true;
+}            
+</script>
+
+<!--
+/*************************
+Template Tags for form.template.html
+
+To simplify the process of displaying the Buy AD-Space form and Modifying it, serveral template tags have been defined.
+The form is necessary, and all the tags must be inside the form to work. 
+
+{process_url} = This URL is called when the form is submitted - Very Important
+
+Use the following tags to design the layout of your form. No need for you to create any input tags.
+{ad_name} = Displays an input box which takes in the Ad Name from the user
+{ad_image_url} = Displays an input box which takes in the AD-Image URL from the user.
+{ad_image_alt} = Displays an input box which takes in the AD-Image Alt text from the user.
+{ad_url} = Displays an input box which takes in the URL to which the AD must point, from the user.
+{product_options} = Displays a select box with option to buy AD-Space for either a month or for both a week and a month.(As enabled by you in the admin panel
+
+*************************/
+-->
+
+<form name="buyform" method="post" action="{process_url}" id="buyform" class="myadmanager-buy-form" id="myadmanager-buy-form">
+<input type="hidden" name="paypal" value="Y">
+
+<div>
+<p align="center" style="font-family:Tahoma; font-size:24px; text-decoration:underline; margin:0px;">Buy AD-Space Now</p>
+<label>AD-Name :</label>{ad_name}</div>
+<div>
+<label>URL of AD-Image :</label>{ad_image_url}</div>
+<div>
+<label>Image Alt Text :</label>{ad_image_alt}</div>
+<div>
+<label>Target URL :</label>{ad_url}</div>
+<div>
+<label>Item Name : </label>
+<!-- product_options = Displays List of products to buy. Uses select -->
+{product_options}
+</div>
+
+<p class="submit" align="right">
+<input type="submit" name="Submit" value="Buy Now via PayPal" onClick="return validateMyForm(this);" />
+</p>
+</form>
